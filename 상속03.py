@@ -118,3 +118,6 @@ def run_tests():
 # 실제 실행
 if __name__ == "__main__":
     run_tests()
+
+dir();
+from DemoSet import *
