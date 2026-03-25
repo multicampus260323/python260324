@@ -10,3 +10,4 @@ soup = BeautifulSoup(page, "html.parser")
 print(soup.prettify())
 #<p>를 몽땅 검색하기
 print(soup.find_all("p"))
+
