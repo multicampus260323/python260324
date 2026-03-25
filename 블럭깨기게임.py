@@ -35,7 +35,7 @@ class BlockBreaker:
         self.create_bricks()
 
         self.text_score = self.canvas.create_text(10, 10, anchor='nw', fill='white', font=('Arial', 16), text='점수: 0')
-        self.text_lives = self.canvas.create_text(self.width-10, 10, anchor='ne', fill='white', font=('Arial', 16), text='목숨: 3')
+        self.text_lives = self.canvas.create_text(self.width-10, 10, anchor='ne', fill='white', font=('Arial', 16), text='목숨: 30')
         self.message_id = None
 
         self.root.bind('<Left>', self.on_left)
