@@ -62,8 +62,11 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::NoFrame</enum>
+    </property>
     <property name="text">
-     <string>여기는 입력 되는 곳입니다.</string>
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>
